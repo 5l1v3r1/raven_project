@@ -124,7 +124,7 @@ class arama:
                             '<exploit.db>\n' \
                             '[{r[2]}]-[{r[0]}]\n' \
                             '<[{r[3]} - {r[5]} - {r[6]}]>\n' \
-                            'Yazar: @{r[4]}\n <[http://www.exploit-db.com/exploits/{r[0}]>\n\n'.format(r=row)
+                            'Yazar: @{r[4]}\n <[http://www.exploit-db.com/exploits/{r[0]}]>\n\n'.format(r=row)
                         )
                         
     
